@@ -1,4 +1,4 @@
 # dogs.davidb.dev
 
 
-Community edited locations of dogs, that will chase you when you are on the bike
+Community edited locations of scamming businesses , who take advantage of tourists
