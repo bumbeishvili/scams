@@ -1,4 +1,4 @@
-# dogs.davidb.dev
+# scams
 
 
 Community edited locations of scamming businesses , who take advantage of tourists
