@@ -75,6 +75,8 @@
 
             d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQWh1wJfEv30-1a7dtXG2xfJVS-RmqVKA9NdupRa3YVb3FyaNm2rmPUS5Q-tJEKfF3aqGFJbe8OcKqg/pub?output=csv").then(data => {
                 data.forEach(d => {
+                    d.longitude = d.googleMapCoords.split(',')[0].trim()
+                    d.latitude = d.googleMapCoords.split(',')[1].trim()
                     const marker = L.marker([d.longitude,
                     d.latitude], { icon: greenIcon }).addTo(mymap);
 
