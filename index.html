@@ -52,9 +52,9 @@
         }
 
 
-        L.tileLayer('https://osmap.{s}.tile.mapcdn.net/en/map/v1/{z}/{x}/{y}.png', {
-             attribution: 'osmap'
-        }).addTo(mymap);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
 
         console.log('trying to load')
 
